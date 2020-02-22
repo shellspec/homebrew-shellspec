@@ -11,6 +11,12 @@ class Shellspec < Formula
   end
 
   test do
-    system "./shellspec", "spec/general_spec.sh"
+    (testpath/"test_spec.sh").write <<~EOS
+      It "should eq ok"
+        When call echo ok
+        The output should eq ok
+      End
+    EOS
+    system "#{bin}/shellspec", "test_spec.sh"
   end
 end
