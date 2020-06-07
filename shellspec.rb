@@ -1,8 +1,8 @@
 class Shellspec < Formula
   desc "BDD style unit testing framework for POSIX compliant shell script"
   homepage "https://shellspec.info"
-  url "https://github.com/shellspec/shellspec/archive/0.24.1.tar.gz"
-  sha256 "a868ef79bb0e908336a2fdbc4b34cd1da3efe1626d3e1ec8dae81c8ea067c30c"
+  url "https://github.com/shellspec/shellspec/archive/0.24.2.tar.gz"
+  sha256 "9097c9f30890618659c25c13f2cb9c06391e6e5ac146a51826fd5394c9403b0a"
 
   bottle :unneeded
 
