@@ -1,8 +1,8 @@
 class Shellspec < Formula
   desc "A full-featured BDD unit testing framework for dash, bash, ksh, zsh and all POSIX shells"
   homepage "https://shellspec.info"
-  url "https://github.com/shellspec/shellspec/archive/0.27.1.tar.gz"
-  sha256 "b7d45fe3698c7a58a5a504009e50c41ca1f83b8e001e63e55c644c9689d7bc91"
+  url "https://github.com/shellspec/shellspec/archive/0.27.2.tar.gz"
+  sha256 "bc276e22ca74b429b8ea793fc65908e46d1f70d900f735632780808384b328f3"
 
   bottle :unneeded
 
