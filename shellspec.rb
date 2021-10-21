@@ -4,8 +4,6 @@ class Shellspec < Formula
   url "https://github.com/shellspec/shellspec/archive/0.28.1.tar.gz"
   sha256 "400d835466429a5fe6c77a62775a9173729d61dd43e05dfa893e8cf6cb511783"
 
-  bottle :unneeded
-
   def install
     system "make", "install", "PREFIX=#{prefix}"
   end
